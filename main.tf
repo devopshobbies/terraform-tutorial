@@ -1,13 +1,9 @@
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 4.0"
-    }
+resource "aws_instance" "babak" {
+  ami = "ami-08cd358d745620807"
+
+  instance_type = "t2.micro"
+
+  tags = {
+    Created_By = "terraform"
   }
 }
-
-# Configure the AWS Provider
-provider "aws" {
-  region = "us-east-1"
-  }
