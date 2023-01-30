@@ -21,5 +21,8 @@ indent_size = 2
 [*.tf]
 trim_trailing_whitespace = false
 
+[*.py]
+max_line_length = 79
+
 [Makefile]
 indent_style = tab
