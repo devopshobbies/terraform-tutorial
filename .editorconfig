@@ -1,0 +1,25 @@
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = false
+indent_style = space
+indent_size = 2
+
+[*.{diff, md}]
+trim_trailing_whitespace = false
+
+[*.md]
+trim_trailing_whitespace = true
+
+[*.[yml, yaml]]
+indent_size = 2
+
+# fix(removal): In some editors after save all whitespaces will remove.
+[*.tf]
+trim_trailing_whitespace = false
+
+[Makefile]
+indent_style = tab
