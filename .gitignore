@@ -31,3 +31,4 @@ override.tf.json
 # example: *tfplan*
 #
 /.vscode/
+*.lock.hcl
