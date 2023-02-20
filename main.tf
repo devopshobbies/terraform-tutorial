@@ -8,12 +8,13 @@ resource "aws_instance" "babak" {
     Created_By = "terraform"
   }
 }
-# resource "aws_instance" "babak2" {
-#   ami = "ami-08cd358d745620807"
+resource "aws_instance" "babak2" {
+  ami = "ami-08cd358d745620807"
 
-#   instance_type = "t2.micro"
+  instance_type = "t2.micro"
 
-#   tags = {
-#     Created_By = "terraform"
-#   }
-# }
+  tags = {
+    Created_By = "terraform"
+    Name       = "Airflow"
+  }
+}
