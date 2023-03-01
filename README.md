@@ -240,6 +240,6 @@ Effective programming with TLS (Terraform Language Server) to have syntax highli
 
 Leave a star on this repository and then subscribe to our [Youtube](https://www.youtube.com/@devopshobbies) channel. Be aware to turn on notification bell to get notified in case new video added.
 
-| Name         | Author                                                 |
-| ------------ | ------------------------------------------------------ |
-| Zero to hero | [@babakDoraniArab](https://github.com/babakDoraniArab) |
+| Name                                                                                     | Author                                                 |
+| ---------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| [Zero to hero](https://www.youtube.com/playlist?list=PLYrn63eEqAzZssgLu8Um_k1v8Pvh7-l7b) | [@babakDoraniArab](https://github.com/babakDoraniArab) |
