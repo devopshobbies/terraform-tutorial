@@ -231,10 +231,10 @@ For more detail about adding binaries to your path, see this [Stack Overflow art
 
 Effective programming with TLS (Terraform Language Server) to have syntax highlighting, intellisense, code formatting and etc.
 
-| Name             | Description                                                                                                                                      |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| VsCode extension | Terraform Extension for Visual Studio Code                                                                                                       |
-| LSP Mode         | Aims to provide IDE-like experience by providing optional integration with the most popular Emacs packages like company, flycheck and projectile |
+| Name                                                                                        | Description                                                                                                                                      |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [VsCode extension](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform) | Terraform Extension for Visual Studio Code                                                                                                       |
+| [LSP Mode](https://emacs-lsp.github.io/lsp-mode/page/lsp-terraform-ls/)                     | Aims to provide IDE-like experience by providing optional integration with the most popular Emacs packages like company, flycheck and projectile |
 
 ## Courses
 
