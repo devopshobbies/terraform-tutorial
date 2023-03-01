@@ -9,6 +9,7 @@ contribute and improve this tutorial repo.
 
 1. [Installation](#installation)
 2. [Extensions](#extensions)
+3. [Courses](#courses)
 
 ## Installation
 
@@ -234,3 +235,11 @@ Effective programming with TLS (Terraform Language Server) to have syntax highli
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | VsCode extension | Terraform Extension for Visual Studio Code                                                                                                       |
 | LSP Mode         | Aims to provide IDE-like experience by providing optional integration with the most popular Emacs packages like company, flycheck and projectile |
+
+## Courses
+
+Leave a star on this repository and then subscribe to our [Youtube](https://www.youtube.com/@devopshobbies) channel. Be aware to turn on notification bell to get notified in case new video added.
+
+| Name         | Author                                                 |
+| ------------ | ------------------------------------------------------ |
+| Zero to hero | [@babakDoraniArab](https://github.com/babakDoraniArab) |
