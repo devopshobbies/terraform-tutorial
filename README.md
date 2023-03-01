@@ -8,6 +8,7 @@ contribute and improve this tutorial repo.
 ## Table of Contents
 
 1. [Installation](#installation)
+2. [Extensions](#installation)
 
 ## Installation
 
@@ -222,7 +223,14 @@ For more detail about adding binaries to your path, see this [Stack Overflow art
 [This Stack Overflow article](https://stackoverflow.com/questions/1618280/where-can-i-set-path-to-make-exe-on-windows) contains instructions for setting the PATH on Windows through the user interface.
 
 </details>
-
 </ul>
-
 </details>
+
+## Extensions
+
+Effective programming with TLS (Terraform Language Server) to have syntax highlighting, intellisense, code formatting and etc.
+
+| Name             | Description                                                                                                                                      |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| VsCode extension | Terraform Extension for Visual Studio Code                                                                                                       |
+| LSP Mode         | Aims to provide IDE-like experience by providing optional integration with the most popular Emacs packages like company, flycheck and projectile |
