@@ -5,6 +5,10 @@
 This is brand new Persian Terraform freedom tutorial from @babakDoraniArab,
 contribute and improve this tutorial repo.
 
+## Table of Contents
+
+1. [Installation](#installation)
+
 ## Installation
 
 You can find your os related help for installation in below:
