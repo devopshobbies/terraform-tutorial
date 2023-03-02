@@ -1,8 +1,8 @@
 # Devops Hobbies Terraform Tutorial
 
-![Terraform](https://i0.wp.com/datascientest.com/wp-content/uploads/2022/04/terraform-1.jpg?fit=1520%2C601&ssl=1)
+<a href=""><img style="max-width: 900px; width: 100%" src="./assets/thumbnail.jpg"></a>
 
-This is brand new Persian Terraform free tutorial from @babakDoraniArab,
+This is brand new Persian Terraform free tutorial from @[babakDoraniArab](https://github.com/babakDoraniArab),
 contribute and improve this tutorial repo.
 
 ## Table of Contents
