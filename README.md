@@ -9,7 +9,7 @@ contribute and improve this tutorial repo.
 
 1. [Installation](#installation)
 2. [Extensions](#extensions)
-3. [Courses](#courses)
+3. [About Course](#about-course)
 
 ## Installation
 
@@ -236,10 +236,20 @@ Effective programming with TLS (Terraform Language Server) to have syntax highli
 | [VsCode extension](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform) | Terraform Extension for Visual Studio Code                                                                                                       |
 | [LSP Mode](https://emacs-lsp.github.io/lsp-mode/page/lsp-terraform-ls/)                     | Aims to provide IDE-like experience by providing optional integration with the most popular Emacs packages like company, flycheck and projectile |
 
-## Courses
+## About Course
 
 Leave a star on this repository and then subscribe to our [Youtube](https://www.youtube.com/@devopshobbies) channel. Be aware to turn on notification bell to get notified in case new video added.
 
-| Name                                                                                     | Author                                                 |
-| ---------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| [Zero to hero](https://www.youtube.com/playlist?list=PLYrn63eEqAzZssgLu8Um_k1v8Pvh7-l7b) | [@babakDoraniArab](https://github.com/babakDoraniArab) |
+Every episode codes are pushed to its related branch and you can check them below.
+
+| Episode | Name                                                                       | branch                                                               | Youtube                               |
+| ------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------- |
+| 001     | Introduction                                                               | -                                                                    | [watch](https://youtu.be/aFk04rQWvOM) |
+| 002     | Why LaC                                                                    | -                                                                    | [watch](https://youtu.be/Ta-gJecexlg) |
+| 003     | Configuration management vs infrastructure orchestration                   | -                                                                    | [watch](https://youtu.be/n_DckVP5nJQ) |
+| 004     | Terraform Providers and basic AWS configuration to get programmatic access | [004](https://github.com/devopshobbies/terraform-tutorial/tree/v004) | [watch](https://youtu.be/KFg3jDemBF4) |
+| 005     | Create your first resource with terraform                                  | [005](https://github.com/devopshobbies/terraform-tutorial/tree/v005) | [watch](https://youtu.be/tM8eNLZTfKg) |
+| 006     | How to edit your resource and destroy your project                         | [006](https://github.com/devopshobbies/terraform-tutorial/tree/v006) | [watch](https://youtu.be/ugP6cx2jibI) |
+| 007     | Terraform variables and terraform variables                                | [007](https://github.com/devopshobbies/terraform-tutorial/tree/v007) | [watch](https://youtu.be/BOZZzbv1ubc) |
+| 008     | Terraform variables and terraform variables                                | [008](https://github.com/devopshobbies/terraform-tutorial/tree/v008) | [watch](https://youtu.be/RV3OkiYKojk) |
+| 009     | Terraform remote backend                                                   | [009](https://github.com/devopshobbies/terraform-tutorial/tree/v009) | [watch](https://youtu.be/yZQdhRil6TM) |
