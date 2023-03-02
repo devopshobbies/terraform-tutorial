@@ -7,7 +7,7 @@ contribute and improve this tutorial repo.
 
 ## Table of Contents
 
-1. [Installation](#installation)
+1. [Terraform Installation](#installation)
 2. [Extensions](#extensions)
 3. [About Course](#about-course)
 
