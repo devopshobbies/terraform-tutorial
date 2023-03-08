@@ -1,6 +1,6 @@
-backend-bucket ="dvh-terraform-tutorial"
-backend-key ="build/airflow/terraform.tfstate"
-region = "eu-west-2"
+backend-bucket = "dvh-terraform-tutorial"
+backend-key    = "build/airflow/terraform.tfstate"
+region         = "eu-west-2"
 
 
 ami_id        = "ami-08cd358d745620807"
