@@ -253,3 +253,4 @@ Every episode codes are pushed to its related branch and you can check them belo
 | 007     | Terraform variables and terraform variables                                | [007](https://github.com/devopshobbies/terraform-tutorial/tree/v007) | [watch](https://youtu.be/BOZZzbv1ubc) |
 | 008     | Terraform variables and terraform variables                                | [008](https://github.com/devopshobbies/terraform-tutorial/tree/v008) | [watch](https://youtu.be/RV3OkiYKojk) |
 | 009     | Terraform remote backend                                                   | [009](https://github.com/devopshobbies/terraform-tutorial/tree/v009) | [watch](https://youtu.be/yZQdhRil6TM) |
+| 010     | terraform import and state rm                                              | [010](https://github.com/devopshobbies/terraform-tutorial/tree/v010) | [watch](https://youtu.be/CBHYhMlq6Qc) |
