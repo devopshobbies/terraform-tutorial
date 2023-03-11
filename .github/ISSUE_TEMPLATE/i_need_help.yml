@@ -1,0 +1,35 @@
+name: I need help
+description: If you need any help, try this template.
+title: '[Help wanted]: '
+labels: ['help-wanted']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your attention, ask your question and we will answer as soon as possible!
+
+  - type: checkboxes
+    id: base-checkbox
+    attributes:
+      label: Before anything
+      description: Before submitting the issue please read and check below checkboxes.
+      options:
+        - label: I searched for the problem and don't found the answer.
+          required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What is the problem?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Describe your problem completely!
+      value: 'When I was trying to run ...!'
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs (optional).
+      description: Please put the logs here, If the logs are bigger than 10 lines put it into a file and send the link.
+      render: shell
