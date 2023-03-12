@@ -19,13 +19,13 @@ You can find your os related help for installation in below:
 <summary > Linux </summary>
 
 <ul>
-    
+
 <details>
 <summary> Debian/Ubuntu </summary>
-    
+
 #### Ubuntu/Debian
 Ensure that your system is up to date and you have installed the gnupg, software-properties-common, and curl packages installed. You will use these  packages to verify HashiCorp's GPG signature and install HashiCorp's Debian package repository.
-  
+
 ```bash
 sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
 ```
@@ -231,10 +231,11 @@ For more detail about adding binaries to your path, see this [Stack Overflow art
 
 Effective programming with TLS (Terraform Language Server) to have syntax highlighting, intellisense, code formatting and etc.
 
-| Name                                                                                        | Description                                                                                                                                      |
-| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [VsCode extension](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform) | Terraform Extension for Visual Studio Code                                                                                                       |
-| [LSP Mode](https://emacs-lsp.github.io/lsp-mode/page/lsp-terraform-ls/)                     | Aims to provide IDE-like experience by providing optional integration with the most popular Emacs packages like company, flycheck and projectile |
+| Name                                                                                            | Description                                                                                                                                      |
+|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| [VsCode extension](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform)     | Terraform Extension for Visual Studio Code                                                                                                       |
+| [Jetbrains IntelliJ-based IDEs extension](https://plugins.jetbrains.com/plugin/7808-terraform-and-hcl) | Terraform Extension for Pycharm and other IntelliJ-based IDEs                                                                                                       |
+| [LSP Mode](https://emacs-lsp.github.io/lsp-mode/page/lsp-terraform-ls/)                         | Aims to provide IDE-like experience by providing optional integration with the most popular Emacs packages like company, flycheck and projectile |
 
 ## About Course
 
