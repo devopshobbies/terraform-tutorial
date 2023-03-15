@@ -3,7 +3,7 @@ variable "backend-bucket" {}
 variable "backend-key" {}
 
 variable "ami_id" {
-  default = "ami-08cd358d745620807"
+  default     = "ami-08cd358d745620807"
   type        = string
   description = "this is ami id for the machine"
 }
