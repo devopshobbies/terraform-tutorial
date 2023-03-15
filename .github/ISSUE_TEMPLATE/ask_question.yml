@@ -1,0 +1,26 @@
+name: I have a question
+description: You can ask your questions using this template.
+title: '[Question]: '
+labels: ['question']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your attention, ask your question and we will answer as soon as possible!
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Describe and write the question.
+      description: Write the question so simple.
+      placeholder: How can I install the ...
+      value: 'How can I install the ...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: The logs if needed
+      description: Please put the logs here, If the logs are bigger than 10 lines put it into a file and send the link.
+      render: shell
