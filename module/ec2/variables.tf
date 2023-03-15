@@ -8,3 +8,4 @@ variable "ami" {
 variable "createdby" {
   default = "terraform"
 }
+variable "key_name" {}
