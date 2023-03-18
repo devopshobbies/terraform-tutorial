@@ -276,7 +276,7 @@ If you have difficulties to connect to youtube there is an alternative way, you 
 | 008     | Terraform variables and terraform variables                                | [008](https://github.com/devopshobbies/terraform-tutorial/tree/v008) | [watch](https://youtu.be/RV3OkiYKojk) |
 | 009     | Terraform remote backend                                                   | [009](https://github.com/devopshobbies/terraform-tutorial/tree/v009) | [watch](https://youtu.be/yZQdhRil6TM) |
 | 010     | terraform import and state rm                                              | [010](https://github.com/devopshobbies/terraform-tutorial/tree/v010) | [watch](https://youtu.be/CBHYhMlq6Qc) |
-| 011     | terraform import and state rm                                              | [011](https://github.com/devopshobbies/terraform-tutorial/tree/v011) | [watch](https://youtu.be/kJnmaVRbLdI) |
+| 011     | terraform 011 create your first module                                     | [011](https://github.com/devopshobbies/terraform-tutorial/tree/v011) | [watch](https://youtu.be/kJnmaVRbLdI) |
 
 ## Related courses:
 
@@ -284,5 +284,5 @@ You can find related courses below here, You can use them to leverage your devop
 | name | Github Repository | Youtube link |
 | ------- | -------------- | --------------------- |
 | آموزش راه اندازی AWS روی لوکال (LocalStack) | [ AWS local stack ](https://github.com/devopshobbies/aws-localstack-lab) | [Watch](https://youtu.be/Te4MxcLyaUI) |
-| Amazon cloud (AWS) | repository | [Watch](https://youtube.com/playlist?list=PLYrn63eEqAzYkIa-FUZ2Jaq94ac9qlS0l) |
-| AWS webinar | repository | [Watch](https://youtube.com/playlist?list=PLYrn63eEqAzaCqGENAmDSrLwpTxQV0RIx) |
+| Amazon cloud (AWS) | ---- | [Watch](https://youtube.com/playlist?list=PLYrn63eEqAzYkIa-FUZ2Jaq94ac9qlS0l) |
+| AWS webinar | [repository](https://github.com/devopshobbies/aws-webinar) | [Watch](https://youtube.com/playlist?list=PLYrn63eEqAzaCqGENAmDSrLwpTxQV0RIx) |
