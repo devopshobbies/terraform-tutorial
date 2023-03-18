@@ -281,8 +281,8 @@ If you have difficulties to connect to youtube there is an alternative way, you 
 ## Related courses:
 
 You can find related courses below here, You can use them to leverage your devops skills. Even you can use some of them for this tutorial too.
-| name | Github Repository | Youtube link |
-| ------- | -------------- | --------------------- |
-| آموزش راه اندازی AWS روی لوکال (LocalStack) | [ AWS local stack ](https://github.com/devopshobbies/aws-localstack-lab) | [Watch](https://youtu.be/Te4MxcLyaUI) |
-| Amazon cloud (AWS) | ---- | [Watch](https://youtube.com/playlist?list=PLYrn63eEqAzYkIa-FUZ2Jaq94ac9qlS0l) |
-| AWS webinar | [repository](https://github.com/devopshobbies/aws-webinar) | [Watch](https://youtube.com/playlist?list=PLYrn63eEqAzaCqGENAmDSrLwpTxQV0RIx) |
+| name | Github Repository | Youtube link | Description |
+| ------- | -------------- | --------------------- | -------- |
+| آموزش راه اندازی AWS روی لوکال (LocalStack) | [ AWS local stack ](https://github.com/devopshobbies/aws-localstack-lab) | [Watch](https://youtu.be/Te4MxcLyaUI) | You can simulate the aws services and use it for this course. |
+| Amazon cloud (AWS) | ---- | [Watch](https://youtube.com/playlist?list=PLYrn63eEqAzYkIa-FUZ2Jaq94ac9qlS0l) | Learn the basics of aws |
+| AWS webinar | [repository](https://github.com/devopshobbies/aws-webinar) | [Watch](https://youtube.com/playlist?list=PLYrn63eEqAzaCqGENAmDSrLwpTxQV0RIx) | Recorded webinars by Devops Hobbies for learning AWS. |
