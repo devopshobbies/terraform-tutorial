@@ -1,8 +1,8 @@
 # Devops Hobbies Terraform Tutorial
 
+![Devops hobbies terraform](./assets/thumbnail.jpg)
 This is a brand new Persian Terraform free tutorial from @[babakDoraniArab](https://github.com/babakDoraniArab),
 contribute and improve this tutorial repo.
-
 There is a branch for each video on this repository that holds the codes that are written in the related video.
 
 Also, if you would like to contribute just go and check the [CONTRIBUTING.md](./CONTRIBUTING.md) file.
