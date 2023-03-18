@@ -24,24 +24,31 @@ You can find your os related help for installation in below:
 <summary> Debian/Ubuntu </summary>
 
 #### Ubuntu/Debian
-Ensure that your system is up to date and you have installed the gnupg, software-properties-common, and curl packages installed. You will use these  packages to verify HashiCorp's GPG signature and install HashiCorp's Debian package repository.
+
+Ensure that your system is up to date and you have installed the gnupg, software-properties-common, and curl packages installed. You will use these packages to verify HashiCorp's GPG signature and install HashiCorp's Debian package repository.
 
 ```bash
 sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
 ```
+
 Install the HashiCorp GPG key.
+
 ```bash
 wget -O- https://apt.releases.hashicorp.com/gpg | \
   gpg --dearmor | \
   sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
 ```
+
 Verify the key's fingerprint.
+
 ```bash
    gpg --no-default-keyring \
     --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg \
     --fingerprint
 ```
+
 The gpg command will report the key fingerprint:
+
 ```
     /usr/share/keyrings/hashicorp-archive-keyring.gpg
     -------------------------------------------------
@@ -50,20 +57,26 @@ The gpg command will report the key fingerprint:
     uid           [ unknown] HashiCorp Security (HashiCorp Package Signing) <security+packaging@hashicorp.com>
     sub   rsa4096 XXXX-XX-XX [E]
 ```
-  Add the official HashiCorp repository to your system. The lsb_release -cs command finds the distribution release codename for your current system, such as buster, groovy, or sid.
-  ```bash
-  echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] \
-    https://apt.releases.hashicorp.com $(lsb_release -cs) main" | \
-    sudo tee /etc/apt/sources.list.d/hashicorp.list
-  ```
-   Download the package information from HashiCorp.
-   ```bash
-   sudo apt update
-   ```
-   Install Terraform from the new repository.
-   ```bash
-   sudo apt-get install terraform
-   ```
+
+Add the official HashiCorp repository to your system. The lsb_release -cs command finds the distribution release codename for your current system, such as buster, groovy, or sid.
+
+```bash
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] \
+  https://apt.releases.hashicorp.com $(lsb_release -cs) main" | \
+  sudo tee /etc/apt/sources.list.d/hashicorp.list
+```
+
+Download the package information from HashiCorp.
+
+```bash
+sudo apt update
+```
+
+Install Terraform from the new repository.
+
+```bash
+sudo apt-get install terraform
+```
 
 </details>
 
@@ -231,17 +244,24 @@ For more detail about adding binaries to your path, see this [Stack Overflow art
 
 Effective programming with TLS (Terraform Language Server) to have syntax highlighting, intellisense, code formatting and etc.
 
-| Name                                                                                            | Description                                                                                                                                      |
-|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| [VsCode extension](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform)     | Terraform Extension for Visual Studio Code                                                                                                       |
-| [Jetbrains IntelliJ-based IDEs extension](https://plugins.jetbrains.com/plugin/7808-terraform-and-hcl) | Terraform Extension for Pycharm and other IntelliJ-based IDEs                                                                                                       |
-| [LSP Mode](https://emacs-lsp.github.io/lsp-mode/page/lsp-terraform-ls/)                         | Aims to provide IDE-like experience by providing optional integration with the most popular Emacs packages like company, flycheck and projectile |
+| Name                                                                                                   | Description                                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [VsCode extension](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform)            | Terraform Extension for Visual Studio Code                                                                                                       |
+| [Jetbrains IntelliJ-based IDEs extension](https://plugins.jetbrains.com/plugin/7808-terraform-and-hcl) | Terraform Extension for Pycharm and other IntelliJ-based IDEs                                                                                    |
+| [LSP Mode](https://emacs-lsp.github.io/lsp-mode/page/lsp-terraform-ls/)                                | Aims to provide IDE-like experience by providing optional integration with the most popular Emacs packages like company, flycheck and projectile |
+| [Infracost](https://www.infracost.io/docs/integrations/vscode/)                                        | Useful extension for VS-Code to see const estimate of your terraform right in your editor                                                        |
 
 ## About Course
 
 Leave a star on this repository and then subscribe to our [Youtube](https://www.youtube.com/@devopshobbies) channel. Be aware to turn on notification bell to get notified in case new video added.
 
 Every episode codes are pushed to its related branch and you can check them below.
+
+### Watch V-P-N free.
+
+If you have difficulties to connect to youtube there is an alternative way, you can watch videos from [Here](https://inv.bp.projectsegfau.lt/playlist?list=PLYrn63eEqAzZssgLu8Um_k1v8Pvh7-l7b).
+
+### Video lists
 
 | Episode | Name                                                                       | branch                                                               | Youtube                               |
 | ------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------- |
@@ -255,3 +275,4 @@ Every episode codes are pushed to its related branch and you can check them belo
 | 008     | Terraform variables and terraform variables                                | [008](https://github.com/devopshobbies/terraform-tutorial/tree/v008) | [watch](https://youtu.be/RV3OkiYKojk) |
 | 009     | Terraform remote backend                                                   | [009](https://github.com/devopshobbies/terraform-tutorial/tree/v009) | [watch](https://youtu.be/yZQdhRil6TM) |
 | 010     | terraform import and state rm                                              | [010](https://github.com/devopshobbies/terraform-tutorial/tree/v010) | [watch](https://youtu.be/CBHYhMlq6Qc) |
+| 011     | terraform import and state rm                                              | [011](https://github.com/devopshobbies/terraform-tutorial/tree/v011) | [watch](https://youtu.be/kJnmaVRbLdI) |
