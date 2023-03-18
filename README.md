@@ -10,6 +10,7 @@ contribute and improve this tutorial repo.
 1. [Terraform Installation](#installation)
 2. [Extensions](#extensions)
 3. [About Course](#about-course)
+4. [Related Courses](#related-courses)
 
 ## Installation
 
@@ -259,7 +260,7 @@ Every episode codes are pushed to its related branch and you can check them belo
 
 ### Watch V-P-N free.
 
-If you have difficulties to connect to youtube there is an alternative way, you can watch videos from [Here](https://inv.bp.projectsegfau.lt/playlist?list=PLYrn63eEqAzZssgLu8Um_k1v8Pvh7-l7b).
+If you have difficulties to connect to youtube there is an alternative way, you can use tools like [Invidious](https://inv.bp.projectsegfau.lt/feed/popular).
 
 ### Video lists
 
@@ -276,3 +277,12 @@ If you have difficulties to connect to youtube there is an alternative way, you 
 | 009     | Terraform remote backend                                                   | [009](https://github.com/devopshobbies/terraform-tutorial/tree/v009) | [watch](https://youtu.be/yZQdhRil6TM) |
 | 010     | terraform import and state rm                                              | [010](https://github.com/devopshobbies/terraform-tutorial/tree/v010) | [watch](https://youtu.be/CBHYhMlq6Qc) |
 | 011     | terraform import and state rm                                              | [011](https://github.com/devopshobbies/terraform-tutorial/tree/v011) | [watch](https://youtu.be/kJnmaVRbLdI) |
+
+## Related courses:
+
+You can find related courses below here, You can use them to leverage your devops skills. Even you can use some of them for this tutorial too.
+| name | Github Repository | Youtube link |
+| ------- | -------------- | --------------------- |
+| آموزش راه اندازی AWS روی لوکال (LocalStack) | [ AWS local stack ](https://github.com/devopshobbies/aws-localstack-lab) | [Watch](https://youtu.be/Te4MxcLyaUI) |
+| Amazon cloud (AWS) | repository | [Watch](https://youtube.com/playlist?list=PLYrn63eEqAzYkIa-FUZ2Jaq94ac9qlS0l) |
+| AWS webinar | repository | [Watch](https://youtube.com/playlist?list=PLYrn63eEqAzaCqGENAmDSrLwpTxQV0RIx) |
