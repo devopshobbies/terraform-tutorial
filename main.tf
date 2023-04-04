@@ -2,6 +2,7 @@ module "ec2_babak" {
   source = "./module/ec2"
 
   instance_name = "v011"
+  key_name      = "dvh"
 }
 
 
@@ -9,6 +10,7 @@ module "ec2_babak2" {
   source = "./module/ec2"
 
   instance_name = "v011_2"
+  key_name      = "dvh"
 }
 
 
