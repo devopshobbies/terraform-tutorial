@@ -1,15 +1,18 @@
 # Devops Hobbies Terraform Tutorial
 
-<a href=""><img style="max-width: 900px; width: 100%" src="./assets/thumbnail.jpg"></a>
-
-This is brand new Persian Terraform free tutorial from @[babakDoraniArab](https://github.com/babakDoraniArab),
+![Devops hobbies terraform](./assets/thumbnail.jpg)
+This is a brand new Persian Terraform free tutorial from @[babakDoraniArab](https://github.com/babakDoraniArab),
 contribute and improve this tutorial repo.
+There is a branch for each video on this repository that holds the codes that are written in the related video.
+
+Also, if you would like to contribute just go and check the [CONTRIBUTING.md](./CONTRIBUTING.md) file.
 
 ## Table of Contents
 
 1. [Terraform Installation](#installation)
 2. [Extensions](#extensions)
 3. [About Course](#about-course)
+4. [Related Courses](#related-courses)
 
 ## Installation
 
@@ -24,24 +27,31 @@ You can find your os related help for installation in below:
 <summary> Debian/Ubuntu </summary>
 
 #### Ubuntu/Debian
-Ensure that your system is up to date and you have installed the gnupg, software-properties-common, and curl packages installed. You will use these  packages to verify HashiCorp's GPG signature and install HashiCorp's Debian package repository.
+
+Ensure that your system is up to date and you have installed the gnupg, software-properties-common, and curl packages installed. You will use these packages to verify HashiCorp's GPG signature and install HashiCorp's Debian package repository.
 
 ```bash
 sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
 ```
+
 Install the HashiCorp GPG key.
+
 ```bash
 wget -O- https://apt.releases.hashicorp.com/gpg | \
   gpg --dearmor | \
   sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
 ```
+
 Verify the key's fingerprint.
+
 ```bash
    gpg --no-default-keyring \
     --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg \
     --fingerprint
 ```
+
 The gpg command will report the key fingerprint:
+
 ```
     /usr/share/keyrings/hashicorp-archive-keyring.gpg
     -------------------------------------------------
@@ -50,20 +60,26 @@ The gpg command will report the key fingerprint:
     uid           [ unknown] HashiCorp Security (HashiCorp Package Signing) <security+packaging@hashicorp.com>
     sub   rsa4096 XXXX-XX-XX [E]
 ```
-  Add the official HashiCorp repository to your system. The lsb_release -cs command finds the distribution release codename for your current system, such as buster, groovy, or sid.
-  ```bash
-  echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] \
-    https://apt.releases.hashicorp.com $(lsb_release -cs) main" | \
-    sudo tee /etc/apt/sources.list.d/hashicorp.list
-  ```
-   Download the package information from HashiCorp.
-   ```bash
-   sudo apt update
-   ```
-   Install Terraform from the new repository.
-   ```bash
-   sudo apt-get install terraform
-   ```
+
+Add the official HashiCorp repository to your system. The lsb_release -cs command finds the distribution release codename for your current system, such as buster, groovy, or sid.
+
+```bash
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] \
+  https://apt.releases.hashicorp.com $(lsb_release -cs) main" | \
+  sudo tee /etc/apt/sources.list.d/hashicorp.list
+```
+
+Download the package information from HashiCorp.
+
+```bash
+sudo apt update
+```
+
+Install Terraform from the new repository.
+
+```bash
+sudo apt-get install terraform
+```
 
 </details>
 
@@ -231,17 +247,24 @@ For more detail about adding binaries to your path, see this [Stack Overflow art
 
 Effective programming with TLS (Terraform Language Server) to have syntax highlighting, intellisense, code formatting and etc.
 
-| Name                                                                                            | Description                                                                                                                                      |
-|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| [VsCode extension](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform)     | Terraform Extension for Visual Studio Code                                                                                                       |
-| [Jetbrains IntelliJ-based IDEs extension](https://plugins.jetbrains.com/plugin/7808-terraform-and-hcl) | Terraform Extension for Pycharm and other IntelliJ-based IDEs                                                                                                       |
-| [LSP Mode](https://emacs-lsp.github.io/lsp-mode/page/lsp-terraform-ls/)                         | Aims to provide IDE-like experience by providing optional integration with the most popular Emacs packages like company, flycheck and projectile |
+| Name                                                                                                   | Description                                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [VsCode extension](https://marketplace.visualstudio.com/items?itemName=hashicorp.terraform)            | Terraform Extension for Visual Studio Code                                                                                                       |
+| [Jetbrains IntelliJ-based IDEs extension](https://plugins.jetbrains.com/plugin/7808-terraform-and-hcl) | Terraform Extension for Pycharm and other IntelliJ-based IDEs                                                                                    |
+| [LSP Mode](https://emacs-lsp.github.io/lsp-mode/page/lsp-terraform-ls/)                                | Aims to provide IDE-like experience by providing optional integration with the most popular Emacs packages like company, flycheck and projectile |
+| [Infracost](https://www.infracost.io/docs/integrations/vscode/)                                        | Useful extension for VS-Code to see const estimate of your terraform right in your editor                                                        |
 
 ## About Course
 
 Leave a star on this repository and then subscribe to our [Youtube](https://www.youtube.com/@devopshobbies) channel. Be aware to turn on notification bell to get notified in case new video added.
 
 Every episode codes are pushed to its related branch and you can check them below.
+
+### Watch V-P-N free.
+
+If you have difficulties to connect to youtube there is an alternative way, you can use tools like [Invidious](https://inv.bp.projectsegfau.lt/feed/popular).
+
+### Video lists
 
 | Episode | Name                                                                       | branch                                                               | Youtube                               |
 | ------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------- |
@@ -255,3 +278,13 @@ Every episode codes are pushed to its related branch and you can check them belo
 | 008     | Terraform variables and terraform variables                                | [008](https://github.com/devopshobbies/terraform-tutorial/tree/v008) | [watch](https://youtu.be/RV3OkiYKojk) |
 | 009     | Terraform remote backend                                                   | [009](https://github.com/devopshobbies/terraform-tutorial/tree/v009) | [watch](https://youtu.be/yZQdhRil6TM) |
 | 010     | terraform import and state rm                                              | [010](https://github.com/devopshobbies/terraform-tutorial/tree/v010) | [watch](https://youtu.be/CBHYhMlq6Qc) |
+| 011     | terraform 011 create your first module                                     | [011](https://github.com/devopshobbies/terraform-tutorial/tree/v011) | [watch](https://youtu.be/kJnmaVRbLdI) |
+
+## Related courses:
+
+You can find related courses below here, You can use them to leverage your devops skills. Even you can use some of them for this tutorial too.
+| name | Github Repository | Youtube link | Description |
+| ------- | -------------- | --------------------- | -------- |
+| آموزش راه اندازی AWS روی لوکال (LocalStack) | [ AWS local stack ](https://github.com/devopshobbies/aws-localstack-lab) | [Watch](https://youtu.be/Te4MxcLyaUI) | You can simulate the aws services and use it for this course. |
+| Amazon cloud (AWS) | ---- | [Watch](https://youtube.com/playlist?list=PLYrn63eEqAzYkIa-FUZ2Jaq94ac9qlS0l) | Learn the basics of aws |
+| AWS webinar | [repository](https://github.com/devopshobbies/aws-webinar) | [Watch](https://youtube.com/playlist?list=PLYrn63eEqAzaCqGENAmDSrLwpTxQV0RIx) | Recorded webinars by Devops Hobbies for learning AWS. |
