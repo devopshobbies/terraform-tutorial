@@ -4,7 +4,7 @@ resource "aws_instance" "babak" {
   ami           = var.ami_id
   instance_type = var.instance_type
   key_name      = var.key_name
-  count         = 4
+  count         = length(var.env_name)
   tags = {
     Name       = "babak-${var.env_name[count.index]}"
     Created_By = local.created_by
